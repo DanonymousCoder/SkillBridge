@@ -47,6 +47,7 @@ nav {
     align-items: center;
     font-weight: 400;
     border-bottom: 1px solid #e0e0e6 ;
+    color: #262626;
 }
 .cont {
     width: 90%;
@@ -102,6 +103,7 @@ nav .right ul li .btn {
     align-items: center;
     height: 70vh;
     position: relative;
+    color: #262626;
 }
 .hero .head {
     background-color: #FCFCFD;
@@ -210,4 +212,89 @@ nav .right ul li .btn {
 .video-img img {
     background-position: center;
     background-size: cover;
+}
+
+/* Benefit Section */
+.benefit-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benefit {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.benefit .head {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.benefit .head .text {
+    width: 60%;
+    color: #262626;
+}
+.benefit .head .text h3 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.benefit .head .text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.benefit .head .btn  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.benefit .head .btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FCFCFD;
+    color: #262626;
+    border-radius: 6px;
+}
+.benefit .sub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    height: 100vh;
+}
+.row1 {
+    display: flex;
+    gap: 1rem;
+    height: 50%;
+}
+.row1 .card {
+    background-color: white;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.card h2 {
+   display: flex;
+   justify-content: flex-end;
+   width: 80%;
+}
+.card .content {
+    padding: 40px;
+}
+.card .head {
+    font-weight: 600;
+    font-size: 18px;
+}
+.card .sub {
+    font-weight: 400;
+    font-size: 12px;
 }
