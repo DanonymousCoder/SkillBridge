@@ -1,4 +1,5 @@
 .advert {
     background-color: #FF9500;
     display: flex;
+    gap:  1rem;
 }
