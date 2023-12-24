@@ -4,8 +4,12 @@
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
+body {
+    background-color: #F1F1F3;
+}
 .container {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +19,8 @@ section {
     width: 95%;
     margin-top: 15px;
 }
+/* Global Styling */
+
 .advert {
     background-color: #FF9500;
     display: flex;
@@ -35,11 +41,12 @@ nav,
 }
 nav {
     height: 70px;
-    border-radius: 0px, 0px, 1px, 0px;
+    border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 400;
+    border-bottom: 1px solid #e0e0e6 ;
 }
 .cont {
     width: 90%;
@@ -83,4 +90,71 @@ nav .right ul li .btn {
     background-color: #FF9500;
     padding: 10px 20px;
     border-radius: 6px;
+}
+.abstract {
+    position: absolute;
+    top: 60px;
+    left: 325px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    position: relative;
+}
+.hero .head {
+    background-color: #FCFCFD;
+    padding: 15px;
+    display: flex;
+    gap: 1rem;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.hero .head h1 {
+    font-weight: 600;
+    font-size: 32px;
+}
+.hero .head img {
+    padding: 10px 10px;
+    background-color: #FFF4E5;
+    border-radius: 6px;
+}
+.hero .sub p {
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+}
+.hero .sub .slogan {
+    font-size: 14px;
+    font-weight: 400;
+}
+.hero-btn ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    list-style: none;
+}
+.hero-btn ul li {
+    background-color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #F1F1F3;
+    font-weight: 500s;
+}
+.hero-btn ul li.btn {
+    background-color: #FF9500;
+    padding: 13px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.hero-btn ul li.btn a {
+    color: white;
+}
+.hero-btn ul li a {
+    color: #262626;
 }
