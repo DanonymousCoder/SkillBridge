@@ -264,6 +264,7 @@ nav .right ul li .btn {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    margin-bottom: 40px;
 }
 .row1 {
     display: flex;
@@ -271,5 +272,23 @@ nav .right ul li .btn {
 }
 .row1 .card {
     background-color: #FFFFFF;
+    border-radius: 6px;
+    height: 320px;
+}
+.row1 .card .num {
+    display: flex;
+    justify-content: right;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.row1 .card .img {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.row1 .card .img img {
+    padding: 10px;
+    background-color: #F1F1F3;
     border-radius: 6px;
 }
