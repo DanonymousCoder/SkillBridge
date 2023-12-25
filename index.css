@@ -653,12 +653,12 @@ nav .right ul li .btn {
 .features {
     background-color: white;
     width: 90%;
-    height: 75%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px 0 0 0px;
 }
 .features h3 {
     font-weight: 500;
@@ -684,15 +684,116 @@ nav .right ul li .btn {
 .features .butn {
     background-color: #FF9500;
     width: 100%;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px 0px 8px 8px;
+    margin-top: 10px;
 }
 .features .butn a {
     text-decoration: none;
     color: white;
     font-weight: 600;
     font-size: 12px;
+}
+
+/* FAQ */
+.faq-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq {
+    width: 90%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+}
+.head {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.sub {
+    width: 50%;
+}
+.faq .head h2 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 45.6px;
+    margin-bottom: 7px;
+}
+.faq .head p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.faq .head .butn {
+    justify-content: flex-start;
+}
+.faq .head .butn a {
+    color: #262626;
+    background-color: white;
+    border: 1px solid #F1F1F3;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.sub .quest {
+    border: 1px solid #F1F1F3;
+    padding: 10px 10px 20px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.quest .holder {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F1F1F3;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+.quest p {
+    width: 90%;
+    padding: 25px 0;
+}
+.quest .cont1 {
+    display: flex;
+    width: 90%;
+    background-color: #F7F7F8;
+    padding: 5px 15px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.quest1 {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    border: 1px solid #F1F1F3;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    gap: 1.5rem;
+    font-weight: 500;
+    border-radius: 8px;
 }
