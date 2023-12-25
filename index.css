@@ -235,25 +235,25 @@ nav .right ul li .btn {
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.benefit .head .text {
+.head .text {
     width: 60%;
     color: #262626;
 }
-.benefit .head .text h3 {
+.head .text h3 {
     font-weight: 600;
     font-size: 36px;
     padding-bottom: 10px;
 }
-.benefit .head .text p {
+.head .text p {
     font-weight: 400;
     font-size: 16px;
 }
-.benefit .head .btn  {
+.head .btn  {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
 }
-.benefit .head .btn a {
+.head .btn a {
     text-decoration: none;
     padding: 10px 20px;
     background-color: #FCFCFD;
@@ -475,4 +475,27 @@ nav .right ul li .btn {
     color: #262626;
     font-weight: 500;
     font-size: 12px;
+}
+
+
+/* Testimonial Section */
+.testimonial-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial .head {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
