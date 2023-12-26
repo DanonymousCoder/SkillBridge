@@ -54,6 +54,11 @@ nav {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+}
+.icon {
+    font-size: 30px;
+    display: none;
 }
 nav .left {
     display: flex;
@@ -505,6 +510,32 @@ nav .right ul li .btn {
     justify-content: space-between;
     margin-bottom: 30px;
 }
+.testimonial .head .text {
+    width: 60%;
+    color: #262626;
+}
+.testimonial .head .text h3 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.testimonial .head .text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.testimonial .head .btn  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.testimonial .head .btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FCFCFD;
+    color: #262626;
+    border-radius: 6px;
+    border: 2px solid #F1F1F3;
+}
 .testimonial .sub {
     width: 100%;
     display: flex;
@@ -589,6 +620,32 @@ nav .right ul li .btn {
     gap: 2rem;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+.pricing .head .text {
+    width: 60%;
+    color: #262626;
+}
+.pricing .head .text h3 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+.pricing .head .text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.pricing .head .btn  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.pricing .head .btn a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FCFCFD;
+    color: #262626;
+    border-radius: 6px;
+    border: 2px solid #F1F1F3;
 }
 .pricing .head .btn {
     display: flex;
@@ -861,4 +918,106 @@ nav .right ul li .btn {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 5px;
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .advert p {
+        font-size: 12px;
+    }
+    .ad-arrow {
+        font-size: 5px;
+    }
+    .check {
+        color: black;
+    }
+    nav .cont a {
+
+    }
+    .block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .hero .block h1 {
+        font-size: 15px;
+    }
+    .hero .catch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero .catch p {
+        font-size: 24px;
+    }
+    .hero .catch .slogan  {
+        font-size: 14px;
+        text-align: center;
+        width: 290px;
+    }
+    .hero-body .block {
+        width: 90%;
+    }
+    .hero-btn ul li a {
+        font-size: 12px;
+    }
+    .head {
+        flex-direction: column;
+    }
+    .head .text p {
+        width: 100%;
+    }
+    .benefit .head .text {
+        width: 100%;
+    }
+    .courses .head .text {
+        width: 100%;
+    }
+    .testimonial .head .text {
+        width: 100%;
+    }
+    .pricing .head .text {
+        width: 100%;
+    }
+    .row1 {
+        flex-direction: column;
+    }
+    .owl {
+        display: none;
+    }
+    .row2 {
+        flex-direction: column;
+    }
+    .testimonial .sub .row2 {
+        flex-direction: column;
+    }
+    .testimonial .sub .row2 .test1 {
+        width: 100%;
+    }
+    .pricing .sub {
+        flex-direction: column;
+    }
+    .pricing .sub .plan {
+        width: 100%;
+    }
+    .faq {
+        flex-direction: column;
+    }
+    .faq .head {
+        width: 100%;
+    }
+    .faq .sub {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .more {
+        flex-wrap: wrap;
+        gap: 4rem;
+        margin-top: 30px;
+    }
 }
