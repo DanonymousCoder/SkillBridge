@@ -56,10 +56,6 @@ nav {
     justify-content: space-between;
     overflow: hidden;
 }
-.icon {
-    font-size: 30px;
-    display: none;
-}
 nav .left {
     display: flex;
     align-items: center;
@@ -97,6 +93,18 @@ nav .right ul li .btn {
     background-color: #FF9500;
     padding: 10px 20px;
     border-radius: 6px;
+}
+.checkbtn {
+    font-size: 30px;
+    color: #262626;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
 }
 .abstract {
     position: absolute;
@@ -211,6 +219,7 @@ nav .right ul li .btn {
     height: 95vh;
     border-radius: 8px;
 }
+
 .sm-video {
     display: none;
 }
@@ -220,7 +229,7 @@ nav .right ul li .btn {
     justify-content: center;
     align-items: center;
 }
-.video-img img {
+.video-img .bg-video {
     background-position: center;
     background-size: cover;
 }
@@ -980,7 +989,9 @@ nav .right ul li .btn {
         display: none;
     }
     .sm-video {
-        display: flex;
+        display: block;
+        width: 100%;
+        background-color: black;
     }
     .benefit .head .text {
         width: 100%;
@@ -1066,5 +1077,45 @@ nav .right ul li .btn {
     }
     .line2 {
         padding-left: 10px;
+    }
+}
+
+@media  (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    nav .links ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 160px;
+        left:  -100%;
+        text-align: center;
+        flex-direction: column;
+        transition: all .5s;
+        background-color: #FF9500;
+    }
+    nav .links ul li {
+        display: block;
+    }
+    nav .links ul li a {
+        font-size: 20px;
+    }
+    nav .links ul li a:hover, .active {
+        background-color: #e7e7ed;
+        border-radius: 6px;
+        padding: 10px 20px;
+    }
+    #check:checked ~ nav .links ul{
+        left: 0;
+    }
+    .right ul li a {
+        font-size: 12px;
+    }
+    .sponsor {
+        overflow: hidden;
+    }
+    .card {
+        padding: 10px 20px;
     }
 }
