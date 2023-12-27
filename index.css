@@ -988,7 +988,7 @@ nav .right ul li .btn {
     .bg-video {
         display: none;
     }
-    .sm-video {
+    .video-img .sm-video {
         display: block;
         width: 100%;
         background-color: black;
