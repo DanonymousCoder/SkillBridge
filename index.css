@@ -211,6 +211,9 @@ nav .right ul li .btn {
     height: 95vh;
     border-radius: 8px;
 }
+.sm-video {
+    display: none;
+}
 .video-img {
     width: 100%;
     display: flex;
@@ -972,6 +975,12 @@ nav .right ul li .btn {
     }
     .head .text p {
         width: 100%;
+    }
+    .bg-video {
+        display: none;
+    }
+    .sm-video {
+        display: flex;
     }
     .benefit .head .text {
         width: 100%;
