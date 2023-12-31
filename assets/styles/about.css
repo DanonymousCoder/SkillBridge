@@ -73,3 +73,15 @@ body {
     padding-top: 40px;
     padding-bottom: 5px;
 }
+
+
+@media (max-width: 430px) {
+    .footer {
+        flex-direction: column;
+    }
+    .more {
+        flex-wrap: wrap;
+        gap: 4rem;
+        margin-top: 40px;
+    }
+}
