@@ -1,0 +1,15 @@
+* {
+    font-family: "Be Vietnam Pro";
+}
+section {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #F1F1F3;
+}
