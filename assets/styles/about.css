@@ -115,18 +115,20 @@ body {
 /* CTA Section */
 .cta {
     display: flex;
-    height: 250px;
+    height: 270px;
     justify-content: center;
     width: 80%;
     background-color: white;
     border-radius: 10px;
-    padding: 15px;
 }
 .cta .txt {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    padding-bottom: 25px;
+    width: 50%;
+    padding-left: 30px;
 }
 .cta .txt h3 {
     font-size: 38px;
@@ -147,20 +149,23 @@ body {
     text-align: left;
 }
 .cta .img {
-    width: 100px;
+    width: 30%;
+    padding: 0px;
 }
 .cta .btn {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-right: 50px;
     align-items: center;
     text-align: left;
+    width: 20%;
 }
 .cta .btn a {
     text-decoration: none;
     color: #FFFFFF;
     background-color: #FF9500;
-    padding: 10px;
-}
+    padding: 15px 20px;
+    border-radius: 6px;
 /* Footer Section */
 .footer-cont {
     width: 95%;
