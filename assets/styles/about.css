@@ -268,7 +268,7 @@ body {
     .hero-cont .hero {
         display: flex;
         flex-direction: column;
-        gap: 1px;
+        gap: 1px; 
     }
     .hd-text,
     .sb-text {
